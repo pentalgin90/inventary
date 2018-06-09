@@ -47,7 +47,7 @@ public interface EquipmentService {
 	Monitor getMonitor(int id);
 	
 	void addCommutator(Commutator commutator);
-	List<Commutator> commutstorAll();
+	List<Commutator> commutatorAll();
 	void deleteCommutator(int id);
 	void updateCommutator(Commutator newCommutator);
 	Commutator getCommutator(int id);

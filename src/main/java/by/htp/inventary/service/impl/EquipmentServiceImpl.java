@@ -154,9 +154,9 @@ public class EquipmentServiceImpl implements EquipmentService {
 	}
 
 	@Override
-	public List<Commutator> commutstorAll() {
+	public List<Commutator> commutatorAll() {
 		EquipmentDAO equipmentDAO = new EquipmentDAOImpl();
-		return equipmentDAO.commutstorAll();
+		return equipmentDAO.commutatorAll();
 	}
 
 	@Override

@@ -214,7 +214,7 @@ public class EquipmentDAOImpl implements EquipmentDAO {
 	}
 
 	@Override
-	public List<Commutator> commutstorAll() {
+	public List<Commutator> commutatorAll() {
 		Session session = SessionFactoryManager.getSessionFactory().openSession();
 
 		Criteria criteria = session.createCriteria(Diagonal.class);
